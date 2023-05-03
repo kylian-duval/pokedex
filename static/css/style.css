@@ -1,0 +1,60 @@
+body{
+    position: relative;
+    background-image: url("../image/backgrend.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Fira Sans", Arial, sans-serif;
+    font-size: 1.2em;
+}
+.Name-eu{
+    position: relative;
+    font-style: italic;
+}
+
+.Name-fr{
+    font-weight: bold;
+}
+
+.description{
+    position: absolute;
+    left: 70%;
+    text-align: center;
+    top: 10px;
+}
+
+.type{
+    position: absolute;
+}
+
+.pokemon{
+    max-width: 45%;
+}
+.bouton{
+    align-items: center;
+    position: absolute;
+    top: 30em;
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.fleche{
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    position: relative;
+    align-items: center;
+}
+
+.fleche IMG{
+    height: 100px;
+}
+
+.fleche IMG{
+    height: 100px;
+}
+

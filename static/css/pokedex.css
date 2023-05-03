@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Horta;
+    src: url("/static/css/Horta.otf");
+}
+
+body {
+    font-family: Horta;
+    font-size: 2.2em;
+}
+
+#border{
+    height:25px;
+   width:100%;
+   background-color:black;
+}
+.pokedex {
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 800px;
+    width: 1066px;
+    background-image: url("../image/pokedex_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Nom{
+    position: absolute;
+    top:60%;
+    left: 17%;
+    text-align: start;
+}
+
+.idPok{
+    position: absolute;
+    top:62%;
+    left: 37%;
+}
+
+.Name-eu {
+    position: relative;
+    font-style: italic;
+}
+
+.Name-fr {
+    font-weight: bold;
+    margin-bottom: -50px;
+}
+
+.description {
+    width: 390px;
+    position: absolute;
+    left: 57%;
+    text-align:left;
+    top: 56%;
+    font-size: 0.8em;
+}
+
+.type{
+    position: absolute;
+    top: 23%;
+    left: 58%;
+}
+
+.types {
+    position: absolute;
+    display: flex;
+    top: 26%;
+    left: 72%;
+    height: 10%;
+    text-align: center;
+}
+
+.stats{
+    position: absolute;
+    top: 32%;
+    left: 58%;
+    margin-top: 0%;
+    list-style-type:none;
+    
+}
+
+.list{
+    margin-left: 30px;
+    font-size: 0.8em;
+}
+
+li.stats{
+   margin-left: 20px;
+}
+
+.pokemon {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.Posision_bouton {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    position: relative;
+    bottom: 28%;
+}
+
+.bouton {
+    align-items: center;
+    position: absolute;
+    top: 26em;
+    left: 64%;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: 40px;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.fleche {
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    position: relative;
+    align-items: center;
+}
+
+.fleche IMG {
+    height: 50px;
+}
+
+.fleche IMG {
+    height: 50px;
+}

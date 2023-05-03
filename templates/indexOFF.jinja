@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!--<table>
+    <thead>
+        <tr>
+            <th colspan="2">Tableau Pokemon</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for Pokemon in allPokemon %}
+        <tr>
+            <td><a href="/pokedex/{{Pokemon.id}}"><img src="Https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/{{Pokemon.id}}.svg" alt=""></a></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>-->
+
+<div class="element">
+    {% for Pokemon in allPokemon %}
+            <div class="block"><a href="/pokedex/{{Pokemon.id}}"><img src="Https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/{{Pokemon.id}}.svg" alt=""></a></div>
+    {% endfor %}
+</div>
+
+</body>
+</html>
