@@ -14,6 +14,7 @@ body {
    background-color:black;
 }
 .pokedex {
+    position: relative;
     display: block;
     margin: auto;
     text-align: center;
@@ -26,15 +27,15 @@ body {
 
 .Nom{
     position: absolute;
-    top:60%;
-    left: 17%;
+    top:61%;
+    left: 6%;
     text-align: start;
 }
 
 .idPok{
     position: absolute;
-    top:62%;
-    left: 37%;
+    top:64%;
+    left: 35%;
 }
 
 .Name-eu {
@@ -50,39 +51,40 @@ body {
 .description {
     width: 390px;
     position: absolute;
-    left: 57%;
+    left: 59%;
     text-align:left;
-    top: 56%;
+    top: 57%;
     font-size: 0.8em;
 }
 
 .type{
     position: absolute;
     top: 23%;
-    left: 58%;
+    left: 60%;
 }
 
 .types {
     position: absolute;
     display: flex;
     top: 26%;
-    left: 72%;
+    left: 79%;
     height: 10%;
     text-align: center;
+    flex-direction: row-reverse;
 }
 
 .stats{
     position: absolute;
-    top: 32%;
-    left: 58%;
+    top: 33%;
+    left: 60%;
     margin-top: 0%;
-    list-style-type:none;
-    
+    text-align: start;
 }
 
 .list{
     margin-left: 30px;
     font-size: 0.8em;
+    list-style-type:none;
 }
 
 li.stats{
@@ -92,7 +94,7 @@ li.stats{
 .pokemon {
     position: absolute;
     top: 30%;
-    left: 24%;
+    left: 15%;
     max-width: 200px;
     max-height: 200px;
     min-width: 200px;

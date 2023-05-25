@@ -3,9 +3,7 @@
 {% set presende = pokemon['id'] %}
 {% set presende = presende - 1 %}
 
-{% if presende < 1 %} {% set presende=1 %} {% endif %} 
-
-    <!DOCTYPE html>
+{% if presende < 1 %} {% set presende=1 %} {% endif %} <!DOCTYPE html>
     <html lang="fr">
 
     <head>
@@ -43,22 +41,25 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <p class="type">Type :</p>
-        <div class="types">
-            {% if pokemon['types'][1] is defined %}
-            <img src="../static/image/type/{{pokemon['types'][1]['name']['en']}}.png" alt="">
-            {% endif %}
-            <img src="../static/image/type/{{pokemon['types'][0]['name']['en']}}.png" alt="">
-        </div>
-        <div class="stats">
-            <span>Stats:</span>
+
+            <p class="type">Type :</p>
+            <div class="types">
+                {% if pokemon['types'][1] is defined %}
+                <img src="../static/image/type/{{pokemon['types'][1]['name']['en']}}.png" alt="">
+                {% endif %}
+                <img src="../static/image/type/{{pokemon['types'][0]['name']['en']}}.png" alt="">
+            </div>
+            <div class="stats">
+                <span>Stats:</span>
                 <li class="list">hp: {{pokemon['stats'][0]['stat']}}</li>
                 <li class="list">attack: {{pokemon['stats'][1]['stat']}}</li>
                 <li class="list">defense: {{pokemon['stats'][2]['stat']}}</li>
                 <li class="list">special-attack: {{pokemon['stats'][3]['stat']}}</li>
+            </div>
         </div>
+
+
     </body>
 
     </html>
