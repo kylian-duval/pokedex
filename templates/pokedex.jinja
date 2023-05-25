@@ -3,7 +3,11 @@
 {% set presende = pokemon['id'] %}
 {% set presende = presende - 1 %}
 
-{% if presende < 1 %} {% set presende=1 %} {% endif %} <!DOCTYPE html>
+{% if presende < 1 %} {% set presende=1 %} {% endif %} 
+{% if next > 649 %} {% set next= 649 %} {% endif %}
+
+
+<!DOCTYPE html>
     <html lang="fr">
 
     <head>
